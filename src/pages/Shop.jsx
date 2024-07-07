@@ -1,5 +1,15 @@
-const Shop = () => {
-  return <div>Shop</div>;
-};
+import Filter from "../components/shop/Filter"
+import HeroComp from "../components/shop/HeroComp"
+import ProductsComp from "../components/shop/ProductsComp"
 
-export default Shop;
+const Shop = () => {
+  return (
+    <div>
+      <HeroComp />
+      <Filter />
+      <ProductsComp />
+    </div>
+  )
+}
+
+export default Shop

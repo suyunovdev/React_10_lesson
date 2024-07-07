@@ -1,0 +1,39 @@
+.shop {
+    background-image: url(../../assets/images/shop-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_shop__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 121px 0;
+}
+
+.hero_shop__title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    text-transform: capitalize;
+}
+
+.hero__link_box {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.hero__link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.hero__text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: capitalize;
+}

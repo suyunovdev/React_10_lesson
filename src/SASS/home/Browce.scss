@@ -1,0 +1,23 @@
+.browce__container{
+    padding-top: 56px;
+    text-align: center;
+}
+.browce__text_box{
+    margin-bottom: 62px;
+}
+.browce__img_card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    img{
+        width: 100%;
+    }
+}
+.browce__img_box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+}

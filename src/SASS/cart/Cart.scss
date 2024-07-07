@@ -1,0 +1,74 @@
+.product_item__container{
+    padding-top: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.product_item_img{
+    width: 100%;
+    max-width: 105px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.product_card{
+    display: flex;
+    align-items: center;
+}
+.btn_box{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    button{
+        padding: 10px 15px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 20px;
+    }
+}
+.product_count{
+    font-size: 20px;
+}
+.del_btn{
+    background-color: inherit;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.table__head{
+    background-color: #F9F1E7;
+}
+th{
+    padding: 15px 0;
+    text-align: left;
+}
+table{
+    width: 100%;
+    max-width: 817px;
+    border-collapse: collapse;
+}
+td{
+    padding: 20px 0;
+}
+.card_costs_box{
+    background-color: #F9F1E7;
+    width: 100%;
+    max-width: 393px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 0 45px;
+}
+.card_costs{
+    display: flex;
+    flex-direction: column;
+}
+.cost_box{
+    display: flex;
+    align-items: flex-end;
+    gap: 25px;
+}
