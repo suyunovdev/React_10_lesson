@@ -17,7 +17,7 @@ const Home = () => {
 
   const fetchHome = async () => {
     try {
-      const res = await axios.get("http://localhost:3000/products");
+      const res = await axios.get("http://localhost:3001/products");
       const data = await res.data;
       setProducts(data);
     } catch (err) {
