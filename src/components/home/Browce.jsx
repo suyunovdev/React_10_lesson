@@ -1,5 +1,7 @@
 import "../../SASS/home/Browce.scss";
 import browceImg1 from "../../assets/images/browce_img1.png";
+import browceImg2 from "../../assets/images/browce_img2.png";
+import browceImg3 from "../../assets/images/browce_img3.png";
 
 const Browce = () => {
   return (
@@ -19,13 +21,13 @@ const Browce = () => {
         </div>
         <div className="browce__img_card">
           <div className="img_card__img">
-            <img src={browceImg1} alt="img-1" />
+            <img src={browceImg2} alt="img-2" />
           </div>
           <h3 className="card_text">Living</h3>
         </div>
         <div className="browce__img_card">
           <div className="img_card__img">
-            <img src={browceImg1} alt="img-1" />
+            <img src={browceImg3} alt="img-3" />
           </div>
           <h3 className="card_text">Bedroom</h3>
         </div>

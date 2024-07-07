@@ -97,3 +97,42 @@
         row-gap: 25px;
     }
 }
+.filter__results {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  .filter__result {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    // flex-direction: ;
+    
+  }
+  
+  .filter__result img {
+    width: 100%;
+    height: 150px;
+  }
+  
+  .card__content {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  
+  
+  .card__content h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .card__content p {
+    margin: 5px 0;
+  }
+  

@@ -6,6 +6,10 @@
     margin-bottom: 62px;
 }
 .browce__img_card{
+    background-size: contain;
+    background-position: center;
+    width: 340px;
+    height: 480px;
     display: flex;
     flex-direction: column;
     gap: 30px;

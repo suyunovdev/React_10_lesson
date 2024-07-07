@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const ProductsComp = () => {
   const [products, setProducts] = useState([]);
   const fetchApi = async () => {
-    const res = await axios.get("http://localhost:3000/data");
+    const res = await axios.get("http://localhost:3002/data");
     const data = await res.data;
     setProducts(data);
   };
